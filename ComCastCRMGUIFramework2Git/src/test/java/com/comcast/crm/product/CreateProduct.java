@@ -1,11 +1,9 @@
 package com.comcast.crm.product;
 
-import org.testng.annotations.Test;
 
 public class CreateProduct {
 
-	@Test
-	public void createProduct() {
+	public static void main(String[] args) {
 		System.out.println("product created");
 	}
 }
